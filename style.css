@@ -1,0 +1,76 @@
+body{
+    background-color: #e8e8e8;
+}
+.container-title{
+    max-width: 600px;
+    display: flex;
+    margin-top: 5%;
+    padding: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.Title {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Nueva-tarea{
+    width: 30%;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 0px;
+    background-color: #ff41a8;
+    border-radius: 5px;
+    color: white;
+}
+
+.Tarea{
+    border: 1px solid #e8e8e8;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 3%;
+    display: flex;
+    background: white;
+}
+
+.Tarea-titulo{
+    font-size: small;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 2%;
+}
+
+.Boton-Tarea{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    margin-left: auto;
+    background-color: white;
+}
+
+.Edit{
+    background-color: white;
+    color: #ff41a8;
+    border: 0px;
+}
+
+.Delete{
+    background-color: white;
+    color: #ff41a8;
+    border: 0px;
+}
+.container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
